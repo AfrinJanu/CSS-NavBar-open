@@ -1,0 +1,77 @@
+
+
+/*menu part css start*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.menu{
+	text-align:center ;
+	background-color:orange ;
+}
+
+.menu ul{
+     display: inline-flex;
+}
+.menu ul li{
+	height: 50px;
+	width: 120px;
+	line-height: 50px;
+}
+
+.menu ul li a{
+	color:purple;
+	font-size: 20px;
+	text-transform: capitalize;
+	display: block;
+    font-style:oblique;
+}
+.menu ul li a:hover
+
+ {
+	background-color: lightcoral;
+	color:darkviolet;
+	font-size: 25px;
+}
+
+.dropdown{
+	display: none;
+	background-color: orange;
+
+}
+
+.menu ul li:hover .dropdown{
+	display: block;
+}
+.menu ul li:hover .dropdown ul{	
+	display: block;
+}
+.baim{
+	background-image: url('bm.jpg');
+	background-size: cover;
+	background-position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	color: white;
+	display: flex;
+	justify-content:center ;
+	flex-direction:column ;
+	align-items: center;
+background-color: rgba(0, 0, 0, 0.1);
+	
+}
+
+/*menu part css end*/
