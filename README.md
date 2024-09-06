@@ -1,2 +1,2 @@
-# CSS-Navbar-multiple
+# CSS-Navbar-open
 Horizontal to Vertical 
